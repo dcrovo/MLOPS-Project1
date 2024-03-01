@@ -1,0 +1,9 @@
+version: '3'
+services: 
+  tfx-dvc:
+    build: .
+    container_name: dev_container
+    ports: 
+      - "8888:8888"
+    volumes:
+      - "${PWD}:/work"
