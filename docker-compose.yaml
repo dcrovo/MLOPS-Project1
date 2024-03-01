@@ -1,9 +1,15 @@
 version: '3'
-services: 
-  tfx-dvc:
-    build: .
+services:
+  tfx:
     container_name: dev_container
-    ports: 
+    build:
+      context: .
+    image: tensorflow/tfx:latest_dvc
+    ports:
       - "8888:8888"
     volumes:
-      - "${PWD}:/work"
+      - .:/work
+      - data_volume:/data
+    entrypoint: /run_jupyter.sh
+volumes:
+  data_volume:

@@ -1,3 +1,6 @@
-tfx==1.14.0
 apache-beam==2.47.0
+tfx
 dvc
+boto3
+dvc[all]
+dvc[gdrive]
