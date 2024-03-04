@@ -35,5 +35,12 @@ para acceder al contenedor de desarrollo preste atención a la salida de la term
 
 ```http://127.0.0.1:8888/lab?token=123e4b......```
 
-copielo y péguelo en el navegador para poder acceder al notebook. 
+copielo y péguelo en el navegador para poder acceder al notebook. Verá lo siguiente en el navegador. ahora seleccione el archivo ProyectoMLOPS1.ipynb
 
+![image](https://github.com/dcrovo/MLOPS-Project1/assets/26165926/9bc52bd9-8ffe-426d-9f2b-9ee352fa8a0e)
+
+Una vez abierto puede ejecutar todo el notebook para verificar su correcto funcionamiento y desarrollo del proyecto. 
+![image](https://github.com/dcrovo/MLOPS-Project1/assets/26165926/a66d05a4-1eae-49c8-8f6d-03dc9a891dfd)
+Puede elegir dos formas de ejecutar el proyecto:
+- Volver a correr todas la celdas, en este caso se generarán más artefactos adicionales en la carpeta pipeline.
+- Eliminar la carpeta pipeline y correr todo el notebook
